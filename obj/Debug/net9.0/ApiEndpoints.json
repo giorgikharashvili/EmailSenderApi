@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "EmailSenderApi.Controllers.EmailsController",
+    "Method": "SendEmail",
+    "RelativePath": "api/emails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receptor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "body",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

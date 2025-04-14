@@ -1,0 +1,45 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "EmailSenderApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/emails": {
+      "post": {
+        "tags": [
+          "Emails"
+        ],
+        "parameters": [
+          {
+            "name": "receptor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "subject",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "body",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
